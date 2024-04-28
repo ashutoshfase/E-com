@@ -1,0 +1,51 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.filters {
+    margin-bottom: 20px;
+}
+
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: chocolate;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.card p {
+    margin: 5px 0;
+}
+
+.add-to-cart {
+    background-color: blue;
+    color: silver;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.add-to-cart:hover {
+    background-color: blueviolet;
+}
